@@ -111,7 +111,7 @@ export class PageLayout extends Component<any> {
               newClient={client}
               id={p.id}
               name={p.name}
-              type={p.types}
+              types={p.types}
               image={p.image}
               favouritePokemonStatus={this.favouritePokemonStatus}
               isFavourite={this.state.favouritePokemons[`${p.id}`]}

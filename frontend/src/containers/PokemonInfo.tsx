@@ -206,7 +206,7 @@ export class PokemonInfo extends Component<any> {
                           }
                         })
                           .then(() => {
-                            this.props.toggleFavStatus(this.props.id);
+                            this.props.favouritePokemonStatus(this.props.id);
                             toast(`${name} liked!`);
                           })
                           .catch(err => {
