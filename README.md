@@ -1,4 +1,4 @@
-# Challenges Coding Exercise Frontend
+# Pokemon Frontend
 
 We have provided you with a simple GraphQL server that serves Pokemon data. The server is non-persistent and therefore on server restart, data will reset. Using the provided server, your mission is to build a small application that should be able to: 
 
